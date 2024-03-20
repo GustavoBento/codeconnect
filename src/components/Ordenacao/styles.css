@@ -1,0 +1,18 @@
+.container-ordenacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    gap: 24px;
+    font-size: 22px;
+}
+
+.container-ordenacao p {
+    color: var(--cinza-medio);
+}
+
+.container-ordenacao p:hover {
+    color: var(--verde-destaque);
+    text-decoration: underline;
+    transition: .3s;
+}
