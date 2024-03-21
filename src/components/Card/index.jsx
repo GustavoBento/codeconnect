@@ -12,12 +12,14 @@ export default function Cards() {
         <img src={Capa} alt="Capa do card" />
       </div>
       <div className="card__conteudo">
-        <h3 className="card__conteudo-subtitulo">
-          Título do post em duas linhas
-        </h3>
-        <p className="card__conteudo-paragrafo">Qualquer coisa</p>
+        <div className='conteudo__texto'>
+          <h3>
+            Título do post em duas linhas
+          </h3>
+          <p>Qualquer coisa</p>
+        </div>
       </div>
-      <div className="card__rodape">
+      <div className="conteudo__rodape">
         <ul>
           <li>
             <img src={Code} alt="Codigos" />
@@ -32,7 +34,7 @@ export default function Cards() {
             12
           </li>
         </ul>
-        <div className="card__rodape__usuario">
+        <div className="rodape__usuario">
             <img src={Usuario} alt="Foto do usuario" />
             @julio
         </div>
