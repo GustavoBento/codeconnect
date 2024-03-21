@@ -7,7 +7,7 @@ import './style.css';
 
 export default function Sidebar() {
   return (
-    <aside>
+    <aside className="container__sidebar">
       <img src={Logo} alt="Logo do Code Connect" />
       <nav>
         <ul className="lista-sidebar">
