@@ -5,7 +5,6 @@ export default function Filtro() {
         <section className='container-filtro'>
             <ul>
                 <li>Programação</li>
-                <li>teste</li>
             </ul>
             <button>Limpar tudo</button>
         </section>
